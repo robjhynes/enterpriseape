@@ -1,4 +1,3 @@
 class Invoice < ActiveRecord::Base
-  
-  
-end
+  belongs_to :employee
+ end
